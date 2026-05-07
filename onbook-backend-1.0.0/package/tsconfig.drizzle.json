@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./dist/tsconfig.drizzle.tsbuildinfo",
+    "rootDir": "drizzle",
+    "outDir": "./dist/drizzle",
+    "target": "ES2020",
+    "module": "CommonJS",
+    "lib": ["es2023"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": false
+  },
+  "include": ["drizzle/**/*"]
+}
